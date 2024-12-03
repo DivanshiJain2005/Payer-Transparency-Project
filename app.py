@@ -37,7 +37,7 @@ def execute_query(connection, query):
         return f"Error executing query: {e}"
 
 def main():
-    st.title("PostgreSQL Query Executor")
+    st.title("UHC data Extractor")
 
     st.write("### Enter your SQL query below:")
 
