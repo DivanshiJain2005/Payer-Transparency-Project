@@ -13,6 +13,7 @@ def connect_to_db():
             password=st.secrets["database"]["password"],
             port=st.secrets["database"]["port"]
         )
+        print(host)
         return connection
     except Exception as e:
         st.error(f"Error connecting to the database: {e}")
